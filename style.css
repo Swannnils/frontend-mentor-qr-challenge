@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Outfit700';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/outfit/v2/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyO4a0Ew.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+@font-face {
+  font-family: 'Outfit400';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/outfit/v2/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1O4a0Ew.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+html
+{
+    background: hsl(212, 45%, 89%);
+}
+.body 
+{
+    width: 1920px;
+    height: 1080px;
+}
+ #section{
+   transition : all 0.2s ease-out;
+ }
+.section
+{
+  position: absolute;
+  text-align: center;
+  display: block;
+  border-radius: 10px;
+  width: 322px;
+  height: 500px;
+  background: #ffffff;
+  margin: 0 auto;
+  padding: initial;
+  top: 25%;
+  left: 0;
+  right: 0;
+ 
+}
+
+.hovered{
+   box-shadow: 10px 5px 5px #C7D6F5;
+   transform: scale(1.01);
+   
+}
+.image
+{
+    border-radius: 10px;
+    position: relative;
+    object-fit: fill;
+    width: 290px;
+    height: 290px;
+    margin-top: 15px;
+}
+
+
+.p1
+{
+    color: hsl(218, 44%, 22%);
+    margin: 18px;
+    font-family: 'Outfit700', sans-serif;
+    font-size: 22px;
+}
+
+.p2
+{
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    margin: 20px;
+    font-family: 'Outfit400', sans-serif;
+    font-size: 16px;
+}
+
+.attribution
+{
+    text-align: center;
+    position: sticky;
+    left: 43%;
+    padding: initial;
+}
